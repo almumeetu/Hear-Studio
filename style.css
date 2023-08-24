@@ -63,7 +63,7 @@
     width: 250px;
     height: 100vh;
     position: fixed;
-    right: 0;
+    right: -250px;
     top: 0;
     background: #009688;
     z-index: 2;
@@ -92,4 +92,30 @@ nav ul li a {
 #menuBtn img{
     width: 20px;
     margin-top: 15px;
+}
+
+/* Features */
+#feature{
+    width: 100%;
+    padding: 70px 0;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin: auto;
+    font-size: 20px;
+    color: #009688;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 770px) {
+    .banner-text h1{
+        font-size: 44px;
+    }
+    .banner-btn a{
+        display: block;
+        margin: 20px auto;
+    }
 }
