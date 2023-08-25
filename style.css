@@ -243,6 +243,7 @@ hr{
     bottom: 40%;
     opacity: 1;
 }
+/* Testimonial */
 
 @media screen and (max-width: 770px) {
     .banner-text h1{
@@ -264,5 +265,18 @@ hr{
     .features-img img{
         width: 100%;
     }
-    
+    .single-service{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .single-service p{
+        font-size: 12px;
+    }
+    hr{
+        margin: 5px auto;
+    }
+    .single-service:hover .service-desc {
+        bottom: 25% !important;
+        
+    }
 }
