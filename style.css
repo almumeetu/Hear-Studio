@@ -262,7 +262,12 @@ hr{
     padding: 10px;
     margin-bottom: 30px;
     border-radius: 5px;
-    box-shadow: 0 10px 20px 3px #009688;
+    box-shadow: 0 10px 20px 3px #00968814;
+    cursor: pointer;
+    transition: transform .5s;
+}
+.testimonial-col:hover{
+    transform: translateY(-7px);
 }
 .user{
     display: flex;
@@ -270,7 +275,7 @@ hr{
     margin: 20px 0;
 }
 .user img{
-    width: 60px;
+    width: 40px;
     margin-right: 20px;
     border-radius: 3px;
 }
@@ -315,5 +320,8 @@ hr{
     .single-service:hover .service-desc {
         bottom: 25% !important;
         
+    }
+    .testimonial-col {
+        flex-basis: 100%;
     }
 }
